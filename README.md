@@ -7,7 +7,7 @@ I use it to reduce the size of my music collection after tagging it. For example
 If you're looking to reduce the size of your FLAC files, I can recommend [metaflac](https://xiph.org/flac/documentation_tools_metaflac.html) `--dont-use-padding --remove --block-type=PADDING "%_path%"`
 
 ## Usage
-	"ID3v2 Depadder.exe" filename [-s]
+	ID3v2Depadder.exe filename [-s]
 `-s` enables silent mode (disabled by default). This will suppress errors and warnings, succeeding or failing silently, and will take default actions instead of prompting the user.
 
 ### Disclaimer
